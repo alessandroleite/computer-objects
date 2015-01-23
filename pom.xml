@@ -106,13 +106,13 @@
 		<repository>
 			<id>deploy-release-repo</id>
 			<name>deploy-release-repo</name>
-			<url>${deploy-repo.url}/releases</url>
+			<url>${DEPLOY_URL}/releases</url>
 		</repository>
 
 		<snapshotRepository>
 			<id>deploy-snapshot-repo</id>
 			<name>deploy-snapshot-repo</name>
-			<url>${deploy-repo.url}/snapshots</url>
+			<url>${DEPLOY_URL}/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 

@@ -230,6 +230,7 @@
 						<exclude>**/HEADER</exclude>
 						<exclude>**/README.md</exclude>
 						<exclude>**/checkstyle.xml</exclude>
+						<exclude>**/maven-repo/**</exclude>
 					</excludes>
 					<strictCheck>true</strictCheck>
 				</configuration>
